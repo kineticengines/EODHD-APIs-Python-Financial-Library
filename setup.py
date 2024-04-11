@@ -34,8 +34,8 @@ setup(
     packages=find_packages(include=["eodhd"]) + ['eodhd.APIs'],
     include_package_data=True,
     install_requires=[
-        "websockets>=11.0.3",
-        "websocket-client>=1.6.3",
+        "websockets>=9.0,<11",
+        "websocket-client>=0.56.0,<2",
         "requests>=2.31.0",
         "rich>=13.5.2",
         "pandas>=2.1.0",
